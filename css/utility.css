@@ -1,0 +1,115 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.item-center{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.bg-grey{
+    background-color: #121212;
+}
+
+.rounded{
+    border-radius: 5px;
+}
+
+.m-1{
+    margin: 5px;
+}
+.p-1{
+    padding: 10px;
+}
+
+
+
+
+
+
+/* For WebKit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+    height: 12px; /* Height of the scrollbar (for horizontal scrollbars) */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #444; /* Color of the scrollbar thumb */
+    border-radius: 6px; /* Roundness of the scrollbar thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color of the scrollbar thumb when hovered */
+}
+
+::-webkit-scrollbar-track {
+    background: #222; /* Color of the scrollbar track */
+    border-radius: 6px; /* Roundness of the scrollbar track */
+}
+
+::-webkit-scrollbar-corner {
+    background: #222; /* Color of the scrollbar corner */
+}
+
+/* For Firefox */
+html {
+    scrollbar-width: thin; /* Width of the scrollbar */
+    scrollbar-color: #444 #222; /* Color of the scrollbar thumb and track */
+}
+
+/* For IE, Edge, and custom scrollbar track */
+body {
+    -ms-overflow-style: none; /* Hide default scrollbar in IE and Edge */
+}
+
+/* Hide the default scrollbar in IE, Edge */
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Custom scrollbar styles for all browsers */
+.scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #444 #222;
+}
+
+/* Hide default scrollbar, add custom scrollbar styles for all browsers */
+.scrollbar::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+    background: #444;
+    border-radius: 6px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+    background: #222;
+    border-radius: 6px;
+}
+
+.scrollbar::-webkit-scrollbar-corner {
+    background: #222;
+}
